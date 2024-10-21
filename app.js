@@ -30,7 +30,7 @@ function addGoal() {
 
 listElement.addEventListener('click', (event) => {
   const liElement = event.target;
-  liElement.classList.toggle('mark-done');
+  liElement.classList.toggle('done');
 });
 
 buttonElement.addEventListener('click', _ => {
